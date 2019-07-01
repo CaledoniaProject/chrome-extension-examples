@@ -1,0 +1,11 @@
+{
+  "name": "cookies test",
+  "description": "cookies test",
+  "version": "2.3",
+  "manifest_version": 2,
+  "icons": {},
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": ["cookies", "http://*/", "https://*/", "background"]
+}

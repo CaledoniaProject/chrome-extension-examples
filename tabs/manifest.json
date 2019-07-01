@@ -1,0 +1,11 @@
+{
+  "name": "tab listener test",
+  "description": "tab listener test",
+  "version": "2.3",
+  "manifest_version": 2,
+  "icons": {},
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": ["tabs", "http://*/", "https://*/", "background"]
+}

